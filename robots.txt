@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /contact/thanks/
+Disallow: /submit-a-case/thanks/
+Disallow: /subscribe/thanks/
+
+Sitemap: https://thechestmount.com/sitemap.xml

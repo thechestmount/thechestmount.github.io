@@ -1,0 +1,16 @@
+.adslot{margin:0}.adslot:has(iframe,ins,img){margin:24px 0;padding:22px 0 4px;border-top:1px solid var(--line);position:relative;text-align:center}
+.adslot:has(iframe,ins,img)::before{content:"Advertisement";position:absolute;top:6px;left:0;font:500 .62rem/1 var(--mono);letter-spacing:.14em;color:var(--faint);text-transform:uppercase}
+.stack>.adslot:not(:has(iframe,ins,img)){margin-top:0}
+.btn-amber{background:var(--amber);color:#05070b}.btn-amber:hover{background:#ffc552;color:#05070b}
+.gear-sec{scroll-margin-top:80px}.gear-sec+.gear-sec{margin-top:22px}
+.gear-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:14px}
+.gear-head h2{margin:0;font-size:clamp(1.5rem,3.4vw,2rem)}
+.gear-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}@media (max-width:760px){.gear-grid{grid-template-columns:1fr}}
+.gear-grid ul{margin:0;padding-left:1.1em;color:var(--dim);font-size:.92rem}.gear-grid li+li{margin-top:4px}
+.gear-links{display:flex;flex-direction:column;gap:8px}
+.gear-link{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--line2);border-radius:4px;background:rgba(5,7,11,.4);color:#fff;text-decoration:none;font-weight:600;font-size:.92rem}
+.gear-link::after{content:"AMAZON \2197";font:500 .64rem/1 var(--mono);letter-spacing:.12em;color:var(--faint)}
+.gear-link:hover{border-color:var(--blue);background:rgba(61,123,255,.08);color:#fff}
+.gear-toc{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 26px}
+.opt-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.opt-grid .panel h3{font-size:1.4rem;margin-top:.5em}
