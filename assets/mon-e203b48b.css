@@ -14,3 +14,11 @@
 .gear-toc{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 26px}
 .opt-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
 .opt-grid .panel h3{font-size:1.4rem;margin-top:.5em}
+.nav a.nav-submit{background:#c41f28;color:#fff;margin-left:6px;border-radius:4px;box-shadow:0 0 0 1px rgba(255,255,255,.08)}.nav a.nav-submit:hover,.nav a.nav-submit[aria-current=page]{background:#d92a33;color:#fff}
+@media (max-width:860px){.nav a.nav-submit{margin:10px 0 0;text-align:center;border-bottom:0}}
+.case-banner{background:linear-gradient(90deg,rgba(196,31,40,.22),rgba(12,19,32,.92));border-top:1px solid rgba(196,31,40,.45);border-bottom:1px solid rgba(196,31,40,.45)}
+.case-banner .wrap{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding-top:22px;padding-bottom:22px}
+.case-banner h2{margin:0;font-size:clamp(1.3rem,3vw,1.8rem)}.case-banner p{margin:6px 0 0;color:var(--dim);font-size:.95rem}
+.case-line{margin-top:22px;padding:14px 16px;border:1px solid rgba(196,31,40,.45);border-left:4px solid #c41f28;border-radius:4px;background:rgba(196,31,40,.08);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.case-line p{margin:0;font-weight:600}
+.howto{margin:0 0 30px}.howto ul{padding-left:1.2em;margin:.4em 0 0}.howto li+li{margin-top:4px}
