@@ -5,3 +5,4 @@ Disallow: /submit-a-case/thanks/
 Disallow: /subscribe/thanks/
 
 Sitemap: https://thechestmount.com/sitemap.xml
+Sitemap: https://thechestmount.com/sitemap-video.xml
