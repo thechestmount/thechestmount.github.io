@@ -22,3 +22,16 @@
 .case-line{margin-top:22px;padding:14px 16px;border:1px solid rgba(196,31,40,.45);border-left:4px solid #c41f28;border-radius:4px;background:rgba(196,31,40,.08);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .case-line p{margin:0;font-weight:600}
 .howto{margin:0 0 30px}.howto ul{padding-left:1.2em;margin:.4em 0 0}.howto li+li{margin-top:4px}
+/* redesign polish 2026-11-15 */
+.subgoal{margin-top:16px;padding:12px 14px;border:1px solid var(--line);border-radius:6px;background:rgba(255,255,255,.03)}
+.subgoal .sg-top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;font-size:.92rem}
+.subgoal .sg-bar{height:8px;border-radius:4px;background:rgba(255,255,255,.08);margin:8px 0 10px;overflow:hidden}
+.subgoal .sg-bar span{display:block;height:100%;background:#c41f28;border-radius:4px}
+.subgoal small{color:var(--dim)}
+.statbar{display:flex;flex-wrap:wrap;gap:8px 22px;margin:18px 0 0;padding:0;list-style:none;font-size:.9rem;color:var(--dim)}
+.statbar b{color:#fff;font-size:1.15rem;margin-right:4px}
+.catnav{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}.catnav a{font-size:.88rem;padding:6px 12px;border:1px solid var(--line);border-radius:999px;text-decoration:none}.catnav a:hover{border-color:#c41f28}
+.fullcase{border-left:4px solid #c41f28}
+.series{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.series a,.series span{font-size:.85rem;padding:6px 10px;border:1px solid var(--line);border-radius:4px;text-decoration:none}.series span{background:#c41f28;border-color:#c41f28;color:#fff}
+.hot-note{display:block;font-size:.8rem;color:var(--dim);margin-top:4px}
+.record-box ul{padding-left:1.2em;margin:.4em 0 0}.record-box li+li{margin-top:4px}
